@@ -27,9 +27,9 @@ const HeroSection = ({ query }: SearchProps) => {
   }
 
   return (
-    <div className='w-full flex  items-center justify-between text-center  px-4  '>
+    <div className='w-full flex max-sm:flex-col  items-center justify-between text-center gap-4 px-4  '>
       <h1 className='text-2xl  font-semibold '>Extensions List</h1>
-      <div className='flex items-center space-x-4'>
+      <div className='flex items-center space-x-4 '>
         <Button
           onClick={() => handleSearch('All')}
           className='rounded-xl bg-slate-500 hover:bg-primary focus:bg-primary transition-all delay-200 ease-in-out '
