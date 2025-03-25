@@ -52,8 +52,8 @@ const playfairDisplay = Playfair({
 })
 
 export const metadata: Metadata = {
-  title: 'test App', // Placeholder for title
-  description: 'test', // Placeholder for description
+  title: 'Browser extensions manager', 
+  description: 'Create Browser extensions manager', 
 }
 
 export default function RootLayout({
@@ -63,7 +63,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang='pl'
+      lang='en'
       suppressHydrationWarning
     >
       <body

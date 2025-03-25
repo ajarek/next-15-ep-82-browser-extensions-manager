@@ -33,18 +33,21 @@ const HeroSection = ({ query }: SearchProps) => {
         <Button
           onClick={() => handleSearch('All')}
           className='rounded-xl bg-slate-500 hover:bg-primary focus:bg-primary transition-all delay-200 ease-in-out '
+          aria-label='All'
         >
           All
         </Button>
         <Button
           onClick={() => handleSearch('Active')}
           className='rounded-xl bg-slate-500 hover:bg-primary focus:bg-primary transition-all delay-200 ease-in-out '
+          aria-label='Active'
         >
           Active
         </Button>
         <Button
           onClick={() => handleSearch('Inactive')}
           className='rounded-xl bg-slate-500 hover:bg-primary focus:bg-primary transition-all delay-200 ease-in-out '
+          aria-label='Inactive'
         >
           Inactive
         </Button>
